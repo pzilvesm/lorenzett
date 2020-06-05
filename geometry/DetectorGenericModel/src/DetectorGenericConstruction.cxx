@@ -91,7 +91,7 @@ void DetectorGenericConstruction::DefineMaterials()
 	G4Element* elNi = new G4Element("Nickel","Ni", 28., 58.70*g/mole);
 	G4Element* elFe = new G4Element("Iron","Fe", 26., 55.85*g/mole);
 
-	G4Material* steel = new G4Material("Stainless Steel", 8.02 * g/cm3, 5); \\
+	G4Material* steel = new G4Material("Stainless Steel", 8.02 * g/cm3, 5); 
 	steel->AddElement(elMn, 0.02);
 	steel->AddElement(elSi, 0.01);
 	steel->AddElement(elCr, 0.19);
